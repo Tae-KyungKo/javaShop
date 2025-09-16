@@ -21,7 +21,7 @@ public class Member {
     @Embedded
     private Address address;
 
-    @OneToMany(mappedBy = "member")  //얘 입장에선 하나 v 다수
+    @OneToMany(mappedBy = "member")  //얘 입장에선 하나 ㄷ 다수
     private List<Order> orders = new ArrayList<>();
 
 }
